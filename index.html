@@ -19,8 +19,8 @@
             <div class="col text-center col-12 col-md-6 col align-self-center display-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem doloremque minima natus?</p>
             </div>
-            <div class="text-center col-12 col-md-6 row justify-content-md-center">
-                <img class="rounded float-end" src="https://emprenderconexito.org/wp-content/uploads/2019/12/16028.jpg">
+            <div class="base 1 col-12 col-md-6 row">
+                <img src="https://emprenderconexito.org/wp-content/uploads/2019/12/16028.jpg">
             </div>
         </div>    
       
@@ -54,8 +54,8 @@
         </div> 
 
         <div class="row bg-success">
-                <div class="text-center col-12 col-md-6 row justify-content-md-center ">
-                    <img src="https://emprenderconexito.org/wp-content/uploads/2019/12/16028.jpg">
+                <div class="col-12 col-md-6 row">
+                    <img class="base2" src="https://emprenderconexito.org/wp-content/uploads/2019/12/16028.jpg">
                 </div>
                 <div class="text-center col-12 col-md-6 col align-self-center display-6">
                     <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -66,6 +66,26 @@
                  </div>    
         
     </div>
+
+    <style>
+        *,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.base1{
+    display: flex;
+    align-content: flex-end;
+    padding-right: 0px;
+}
+
+.base2{
+    display: flex;
+    align-content:flex-start;
+    padding: 0;
+}
+    </style>
 
 </body>
 </html>
